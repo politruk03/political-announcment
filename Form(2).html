@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web development" />
+    <meta name="keywords" content="HTML (Part 1 - Content - Form)" />
+    <meta name="author" content="politruk" />
+    <title>Web Development Survey</title>
+</head>
+
+<form id="survey" method="post" action="">
+
+    <p><label>Name (Optional): 
+        <input type="text" name="fname" size="20" />
+    </label></p>
+
+    <p>Gender:
+        <label>
+            <input type="radio" name="gender" value="M" />Male
+        </label>
+        
+        <label>
+            <input type="radio" name="gender" value="F" />Female
+        </label>
+    </p>
+
+    <p>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+    </p>
+
+    <p><label>Degree Program:</label>
+        <input list="dlDegreeProg" name="degreeprog" />
+        <datalist id="dlDegreeProg">
+            <option value="IT"></option>
+            <option value="Finance"></option>
+            <option value="Design"></option>
+        </datalist>
+    </p>
+</form>
+
+
+
+

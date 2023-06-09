@@ -8,6 +8,23 @@ h1 {
     margin: 0;
 }
 
+.tooltip {
+    display: none;
+    position: relative;
+    background-color: rgb(227, 184, 176);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    left: 1em;
+}
+
+.tooltip:after {
+    position: absolute;
+    top: 10px;
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+}
 
 @media screen and (min-width:1400px) {
     body {
@@ -30,7 +47,7 @@ h1 {
     form {
         width: 35%;
         padding: 10px;
-        background-color: #d3d4d4;
+        background-color: #d4d3d3;
         margin: 20px;
         margin-top: 30px;
         float: right;
